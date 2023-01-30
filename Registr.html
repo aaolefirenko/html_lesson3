@@ -11,16 +11,21 @@
     <h2>Форма регистрации</h2>
 
     <form>
+        <!--
+        В тег p, как и в другие теги лучше класть то,для чего они предназначены. Тег p к примеру
+        для абзаца текста. А у тебя тут инпут, это не ошибка, но если хочется положить инпут в какой-то блок,
+        то лучше div.
+        -->
         <p>
             Имя пользователя:
-            <input 
-            type="text" 
+            <input
+            type="text"
             placeholder="Введите имя" required autofocus="on">
         </p>
         <p>
             Фамилия пользователя:
-            <input 
-            type="text" 
+            <input
+            type="text"
             placeholder="Введите имя" required autofocus="on">
         </p>
         <p>
@@ -30,21 +35,21 @@
 
         <p>
             Электронная почта:
-            <input 
-            type="email" 
+            <input
+            type="email"
             placeholder="Введите почту" required>
         </p>
 
         <p>
             Пароль:
-            <input 
-            type="password" 
+            <input
+            type="password"
             placeholder="Введите пароль" required>
         </p>
         <p>
             Повторите пароль:
-            <input 
-            type="password" 
+            <input
+            type="password"
             placeholder="Повторите пароль" required>
         </p>
 
@@ -52,6 +57,11 @@
 
             <h3>Какие условия для вас важны в отпуске?</h3>
         </p>
+        <!--
+        У тебя получается тег form  внутри тега form. Тег формы используется что бы внутри него
+        описать форму заполнения. Т.е. ты будто ,если хочется две формы, то это две отдельные формы.
+
+        -->
         <form name="choise" action="" method="">
             <input type="checkbox" name="choise" value="1"/> Комфортабельное проживание<br />
             <input type="checkbox" name="choise" value="2" checked="checked" /> Разнообразное питание<br />
@@ -62,7 +72,11 @@
             <input type="submit" value="OK" />
             <input type="reset" value="Reset" />
             </form>
-
+        <!--
+                Тут выше как и в других местах по файлам, надо соблюдать отсупы слева.
+                т.е. вот таких момоентов быть не должно . Закрывающий тег form надо сдвинуть левее.
+                Сдвинуть левее shift + tab, сдвинуть провее tab. Так проше читать весь код будет
+                -->
 
 
 <p>
@@ -80,6 +94,6 @@
 </div>
 
     </form>
-   
+
 </body>
 </html>
