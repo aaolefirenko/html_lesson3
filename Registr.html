@@ -16,84 +16,95 @@
         для абзаца текста. А у тебя тут инпут, это не ошибка, но если хочется положить инпут в какой-то блок,
         то лучше div.
         -->
-        <p>
+        <div>
             Имя пользователя:
             <input
             type="text"
             placeholder="Введите имя" required autofocus="on">
-        </p>
-        <p>
+        </div>
+        
+        
+        <div>
             Фамилия пользователя:
             <input
             type="text"
             placeholder="Введите имя" required autofocus="on">
-        </p>
-        <p>
+        </div>
+            
+        <div>
             <label for="date">Дата рождения: </label>
             <input type="date" id="date" name="date" required>
-        </p>
+        </div>
+            
+        
 
-        <p>
+        <div>
             Электронная почта:
             <input
             type="email"
             placeholder="Введите почту" required>
-        </p>
-
-        <p>
+        </div>
+          
+        
+        <div>
             Пароль:
             <input
             type="password"
             placeholder="Введите пароль" required>
-        </p>
-        <p>
+        </div>
+         
+        <div>
             Повторите пароль:
             <input
             type="password"
             placeholder="Повторите пароль" required>
-        </p>
+        </div>
+           
+       
+        <h3>Какие условия для вас важны в отпуске?</h3>
 
-        <p>
-
-            <h3>Какие условия для вас важны в отпуске?</h3>
-        </p>
         <!--
         У тебя получается тег form  внутри тега form. Тег формы используется что бы внутри него
         описать форму заполнения. Т.е. ты будто ,если хочется две формы, то это две отдельные формы.
 
-        -->
-        <form name="choise" action="" method="">
-            <input type="checkbox" name="choise" value="1"/> Комфортабельное проживание<br />
-            <input type="checkbox" name="choise" value="2" checked="checked" /> Разнообразное питание<br />
-            <input type="checkbox" name="choise" value="3" /> Насыщенные туристические программы<br />
-            <input type="checkbox" name="choise" value="4" /> Наличие Wi-Fi в номере<br />
-            <input type="checkbox" name="choise" value="5" /> Постоянная смена локаций <br />
-            <input type="checkbox" name="choise" value="6" /> Наличие фотографа при отеле <br />
-            <input type="submit" value="OK" />
-            <input type="reset" value="Reset" />
-            </form>
-        <!--
+                
                 Тут выше как и в других местах по файлам, надо соблюдать отсупы слева.
                 т.е. вот таких момоентов быть не должно . Закрывающий тег form надо сдвинуть левее.
                 Сдвинуть левее shift + tab, сдвинуть провее tab. Так проше читать весь код будет
                 -->
-
-
-<p>
-При регистрации вы подтверждаете, что ознакомлены с Правилами и Политикой нашего сайта! <a href="#">Terms and Privacy</a>
-</p>
-<div>
-<button type="submit" class="registerbtn">Регистрация</button>
-
-</div>
-
-<div class="container signin">
-    <p>Уже имеете аккаунт? <a href="Войти">Войти </a> </p>
-
-
-</div>
-
+    </form>       
+     
+     
+    
+    <form name="choise" action="" method="">
+        <input type="checkbox" name="choise" value="1"/> Комфортабельное проживание
+        <br/>
+        <input type="checkbox" name="choise" value="2"/> Разнообразное питание
+        <br />
+        <input type="checkbox" name="choise" value="3"/> Насыщенные туристические программы
+        <br />
+        <input type="checkbox" name="choise" value="4"/> Наличие Wi-Fi в номере
+        <br />
+        <input type="checkbox" name="choise" value="5"/> Постоянная смена локаций 
+        <br />
+        <input type="checkbox" name="choise" value="6"/> Наличие фотографа при отеле 
+        <br />
+        <input type="submit" value="OK"/>
+        <input type="reset" value="Reset"/>
     </form>
+
+    <p>
+    При регистрации вы подтверждаете, что ознакомлены с Правилами и Политикой нашего сайта! <a href="#">Terms and Privacy</a>
+    </p>
+    <div>
+        <button type="submit" class="registerbtn">Регистрация</button>
+    </div>
+
+    <div class="container signin">
+        <p>Уже имеете аккаунт? <a href="Войти">Войти </a> 
+        </p>
+    </div>
+
 
 </body>
 </html>

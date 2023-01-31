@@ -116,11 +116,33 @@ ul div li a {
 }
 
 .readnext {
-    color: rgb(119, 1, 1);
+    /* color: rgb(119, 1, 1);
     text-decoration-line: underline;
     display: block;
     text-align: right;
+    */
+   
+        display:block; 
+        width:100px; 
+        margin:auto; 
+        margin-left: 80%;
+        padding: 9px 17px; 
+        background:#3d9c3e; 
+        color:#fff!important; 
+        text-decoration:none; 
+        font-size:17px; 
+        text-align: center; 
+        border: 2px solid #c5baba; 
+        border-radius: 34px; 
+        
+} 
+.readnext:hover { 
+    color:#fff!important; 
+    text-decoration:none!important;
+    background:#38cc3a; 
 }
+     
+
 
 .piccentr {
     display:block;
@@ -138,7 +160,21 @@ figcaption {
 }
 
 .toindex {
-    color: rgb(119, 1, 1);
-    text-decoration-line: underline;
-    display: block;
-    text-align: left;
+    display:block; 
+        width:100px;    
+        margin-left: 0;
+        padding: 9px 17px; 
+        background:#3d9c3e; 
+        color:#fff!important; 
+        text-decoration:none; 
+        font-size:17px; 
+        text-align: center; 
+        border: 2px solid #c5baba; 
+        border-radius: 34px;
+}
+
+.toindex:hover { 
+    color:#fff!important; 
+    text-decoration:none!important;
+    background:#38cc3a; 
+}
